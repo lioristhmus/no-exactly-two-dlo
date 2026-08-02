@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "freeze_id": "paper-rc1",
+  "frozen_at_utc": "2026-08-02T07:32:08Z",
+  "status": "local pre-formalization publication candidate; source and PDF frozen; not published",
+  "author": "Lior Isthmus",
+  "source_provenance": {
+    "working_draft_path": "../two-dlo/no-exactly-two-dlo-v7.md",
+    "working_draft_sha256": "cbbd9862ab814c75ec6fa2de6592d7bda1cca71ac77a8af3b65a6d57214f48e5",
+    "working_draft_modified": false,
+    "canonical_difference": "equivalent multiline typesetting of the cut-preimage graph to eliminate a PDF overfull box",
+    "numbered_mathematical_statements_changed": false,
+    "equation_ids_changed": false,
+    "mathematical_conclusions_changed": false
+  },
+  "canonical_source": {
+    "path": "no-exactly-two-dlo.md",
+    "sha256": "bec4c8b1b0f65495efb32e270e4bdcd5fe6ecafca0ca5744760b1630a51487f7",
+    "bytes": 49989,
+    "lines": 1582
+  },
+  "formalization": {
+    "target": "Level IV - paper-exact end-to-end",
+    "lifecycle": "pre-formalization-source-freeze",
+    "status": "not-started",
+    "alignment": "45/45 inventoried; 0/45 exact-proved",
+    "contract_sha256": null,
+    "lean_executed_for_this_paper": false,
+    "independent_human_review": false
+  },
+  "rendering_profile": {
+    "name": "standard-arxiv-ams",
+    "document_class": "amsart",
+    "class_options": ["11pt", "reqno"],
+    "engine": "XeLaTeX",
+    "passes": 3,
+    "paper_size": "letter",
+    "source_date_epoch": 1785655928,
+    "byte_identical_rebuild_across_toolchains": false,
+    "byte_identical_rebuild_on_same_host": false
+  },
+  "toolchain": {
+    "pandoc": "3.9.0.2",
+    "pandoc_crossref": "0.3.23",
+    "xetex": "0.999998",
+    "tex_live": "2026",
+    "python": "3.14.5",
+    "poppler": "26.05.0",
+    "pandoc_default_latex_template_sha256": "0a182e554e971eba7c7dc025fca17616c3a81d1ffaf93a84d063c873282436f1"
+  },
+  "metrics": {
+    "anchors": 65,
+    "equation_ids": 42,
+    "numbered_body_equations": 41,
+    "numbered_environments": 45,
+    "proof_blocks": 36,
+    "proof_end_squares": 36,
+    "pdf_pages": 27,
+    "pdf_external_links": 4,
+    "pdf_font_resources": 10
+  },
+  "verification": {
+    "local_pandoc_latex_pdf_build": "PASS",
+    "canonical_manuscript_lint": "PASS",
+    "planning_index_check": "PASS; 45/45 inventoried, 0/45 proved",
+    "pdf_structural_inspection": "PASS; all pages Letter, zero rotation, no encryption, JavaScript, forms, or embedded files",
+    "pdf_font_embedding": "PASS; 10/10 embedded and subset with Unicode maps",
+    "pdf_text_extraction": "PASS; no replacement or NUL characters",
+    "pdf_visual_inspection": "PASS; all 27 pages rendered and inspected",
+    "byte_identical_pdf_rebuild": "NOT CLAIMED",
+    "external_reference_links": "PASS; 4/4 resolved with HTTP 200",
+    "fresh_linux_paper_build": "NOT RUN; outside this freeze task"
+  },
+  "artifacts": {
+    "generated_tex_sha256": "d67013ffc4399c8f0feab6ce19eca00a221e26647775024d94e0e760954553b1",
+    "generated_pdf_sha256": "071538dd4b64ce74935a97e43aa974e098ef885302367f63ce6fd1062b23617b",
+    "formalization_index_md_sha256": "9c6f739dc108a038e621222370f8a657bc5e5abce21a7625b8ac165730e57bd3",
+    "formalization_index_json_sha256": "5f733002596af3e523f05ff19fdfea7eb2fba743e01b174dec1d97357a2889ac",
+    "anchor_manifest_sha256": "505de131f4ce64bdb33013eb4955312f3a4e021ea361aebd63be6a37b372eba2"
+  },
+  "profile_files": {
+    "common/styles/pandoc-arxiv-ams-en.yaml": "246c7875e18f5c3ae5c3c931b6c687752a078011914d543e004c0ce5f8d6c738",
+    "common/styles/pandoc-promote-topmatter.lua": "c36fbffdd0c88276fd28256efeb8dcb1968a9ac5776fe2a93c7a2b3d858e496c",
+    "common/styles/pandoc-manual-reference-anchors.lua": "8405e9d7f93d5b50b1c5f1ac7290bb98ab687857b78b366c5a715e9ec8913bfe",
+    "common/styles/arxiv-preamble.tex": "d381c6a8e7b056f89f4222aea7e2c76e650f5560cfd9cea58d4608a24e51a891",
+    "common/styles/macros.tex": "9a8334605a62112fff0692691dacb2f92b656b11e052d84ae95cc56811fddaa4"
+  }
+}

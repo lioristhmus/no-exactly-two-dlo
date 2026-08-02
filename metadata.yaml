@@ -1,0 +1,42 @@
+title: No Set Carries Exactly Two Dense Linear Orders without Endpoints
+subtitle: A Cut-Rotation Proof in a Weak Zermelo Theory without Choice or Replacement
+author:
+  name: Lior Isthmus
+  orcid: 0009-0004-7908-9876
+affiliation-displayed: false
+language: en
+license: CC-BY-4.0
+repository: https://github.com/lioristhmus/no-exactly-two-dlo
+planned-distribution:
+  - GitHub
+  - Project Diderot
+  - Zenodo publication record
+publication-status: local release staging; not yet published
+doi: null
+diderot: null
+zenodo: null
+freeze-id: paper-rc2
+previous-freeze-id: paper-rc1
+freeze-kind: formalization note, AI-use disclosure, and exact-two Lean reference; numbered mathematical statements unchanged
+canonical-source: no-exactly-two-dlo.md
+canonical-source-sha256: 80a53bcfa94ea0bea2116c1268a00ddbe123311f6a05f722d75657b7b5051384
+pdf-sha256: 6c54500e11f7e102933e00d8d232faa6221cbd2e1c1abd91909ae9c2c320f71e
+pdf-pages: 27
+rendering-profile: standard-arxiv-ams
+byte-identical-pdf-rebuild: not claimed
+formalization:
+  repository: https://github.com/lioristhmus/no-exactly-two-dlo-lean
+  level: Level IV - paper-exact end-to-end
+  endpoint: ExactTwoDLO.FO.zsep_proves_not_spec2Sentence
+  status: 45/45 exact-proved; 42/42 labeled equations covered
+  contract-sha256: 0a498a649d72274885099a065f35f430a15a51c95cebca3e5daddbdd01b6a4e9
+release-axes:
+  formalization: Level IV
+  local-paper-build: verified
+  pdf-visual-inspection: verified; all 27 pages
+  lean-ledger-cross-check: verified; 45 rows and 188 declarations
+  fresh-linux-paper-package-check: verified in a read-only, network-disabled container; PDF rebuild not claimed
+  fresh-linux-lean-build: verified from an empty .lake state in an x86_64 Ubuntu 24.04 container
+  comparator-local-core: verified; Challenge and Solution builds plus default-kernel replay
+  comparator-sandbox: pending public GitHub Actions Landrun execution
+  independent-human-review: not claimed

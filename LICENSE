@@ -1,0 +1,17 @@
+Copyright 2026 Lior Isthmus
+
+This repository uses two licenses, according to file type:
+
+1. The manuscript, generated manuscript artifacts (including TeX and PDF),
+   paper metadata, formalization indexes, release manifests, checksums, build
+   reports, and prose documentation are licensed under the Creative Commons
+   Attribution 4.0 International License (CC BY 4.0). See
+   LICENSE-CC-BY-4.0.md.
+
+2. Build and validation code (`.py`, `.sh`, and `.lua`) and reusable rendering
+   profile configuration and TeX support files under `common/styles/` are
+   licensed under the Apache License, Version 2.0. See
+   LICENSE-APACHE-2.0.
+
+The Lean source code is distributed separately in the
+`no-exactly-two-dlo-lean` repository and is not part of this repository.

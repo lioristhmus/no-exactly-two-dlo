@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the paper using the preferred citation below."
+title: "Publication package for No Set Carries Exactly Two Dense Linear Orders without Endpoints"
+type: dataset
+authors:
+  - given-names: Lior
+    family-names: Isthmus
+    orcid: "https://orcid.org/0009-0004-7908-9876"
+version: "paper-rc2"
+date-released: "2026-08-02"
+repository: "https://github.com/lioristhmus/no-exactly-two-dlo"
+url: "https://github.com/lioristhmus/no-exactly-two-dlo"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+keywords:
+  - dense linear orders
+  - axiom of choice
+  - Dedekind-finite sets
+  - weak set theory
+  - categoricity
+preferred-citation:
+  type: unpublished
+  title: "No Set Carries Exactly Two Dense Linear Orders without Endpoints: A Cut-Rotation Proof in a Weak Zermelo Theory without Choice or Replacement"
+  authors:
+    - given-names: Lior
+      family-names: Isthmus
+      orcid: "https://orcid.org/0009-0004-7908-9876"
+  year: 2026
+  url: "https://github.com/lioristhmus/no-exactly-two-dlo"

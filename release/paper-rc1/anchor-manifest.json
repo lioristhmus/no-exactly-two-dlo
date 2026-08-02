@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "freeze_id": "paper-rc1",
+  "canonical_source": "no-exactly-two-dlo.md",
+  "canonical_source_sha256": "bec4c8b1b0f65495efb32e270e4bdcd5fe6ecafca0ca5744760b1630a51487f7",
+  "anchor_count": 65,
+  "anchors": [
+    {
+      "anchor_id": "sec:title",
+      "category": "section",
+      "line": 1,
+      "position": 0
+    },
+    {
+      "anchor_id": "sec:abstract",
+      "category": "section",
+      "line": 9,
+      "position": 193
+    },
+    {
+      "anchor_id": "sec:introduction",
+      "category": "section",
+      "line": 39,
+      "position": 2024
+    },
+    {
+      "anchor_id": "thm:intro-reduction",
+      "category": "numbered-environment",
+      "line": 69,
+      "position": 4312
+    },
+    {
+      "anchor_id": "thm:intro-cut-reversal",
+      "category": "numbered-environment",
+      "line": 87,
+      "position": 4698
+    },
+    {
+      "anchor_id": "sec:formal-setting",
+      "category": "section",
+      "line": 104,
+      "position": 5866
+    },
+    {
+      "anchor_id": "def:2-1-base-theory",
+      "category": "numbered-environment",
+      "line": 108,
+      "position": 5946
+    },
+    {
+      "anchor_id": "def:2-2-spectrum",
+      "category": "numbered-environment",
+      "line": 115,
+      "position": 6529
+    },
+    {
+      "anchor_id": "def:2-3-order-notation",
+      "category": "numbered-environment",
+      "line": 132,
+      "position": 7275
+    },
+    {
+      "anchor_id": "thm:2-4-subcountable-uniqueness",
+      "category": "numbered-environment",
+      "line": 147,
+      "position": 8184
+    },
+    {
+      "anchor_id": "thm:2-5-dedekind-alternative",
+      "category": "numbered-environment",
+      "line": 159,
+      "position": 8639
+    },
+    {
+      "anchor_id": "lem:2-6-automorphism-orbit",
+      "category": "numbered-environment",
+      "line": 173,
+      "position": 9139
+    },
+    {
+      "anchor_id": "cor:2-7-common-host",
+      "category": "numbered-environment",
+      "line": 185,
+      "position": 9583
+    },
+    {
+      "anchor_id": "lem:2-8-rigidity-convex",
+      "category": "numbered-environment",
+      "line": 197,
+      "position": 10012
+    },
+    {
+      "anchor_id": "sec:structural-reduction",
+      "category": "section",
+      "line": 209,
+      "position": 10489
+    },
+    {
+      "anchor_id": "lem:3-1-not-subcountable",
+      "category": "numbered-environment",
+      "line": 227,
+      "position": 10709
+    },
+    {
+      "anchor_id": "lem:3-2-not-dedekind-infinite",
+      "category": "numbered-environment",
+      "line": 239,
+      "position": 10911
+    },
+    {
+      "anchor_id": "lem:3-3-rigidity",
+      "category": "numbered-environment",
+      "line": 251,
+      "position": 11306
+    },
+    {
+      "anchor_id": "lem:3-4-hereditary-dedekind",
+      "category": "numbered-environment",
+      "line": 259,
+      "position": 11573
+    },
+    {
+      "anchor_id": "def:3-5-reversal-action",
+      "category": "numbered-environment",
+      "line": 291,
+      "position": 12199
+    },
+    {
+      "anchor_id": "lem:3-6-all-selfdual-flank",
+      "category": "numbered-environment",
+      "line": 314,
+      "position": 12662
+    },
+    {
+      "anchor_id": "prop:3-7-all-selfdual-dichotomy",
+      "category": "numbered-environment",
+      "line": 368,
+      "position": 14093
+    },
+    {
+      "anchor_id": "thm:3-8-residual-normal-form",
+      "category": "numbered-environment",
+      "line": 402,
+      "position": 15003
+    },
+    {
+      "anchor_id": "sec:cut-square",
+      "category": "section",
+      "line": 429,
+      "position": 15899
+    },
+    {
+      "anchor_id": "def:4-1-cut-square",
+      "category": "numbered-environment",
+      "line": 441,
+      "position": 16022
+    },
+    {
+      "anchor_id": "lem:4-2-cut-square-actual",
+      "category": "numbered-environment",
+      "line": 497,
+      "position": 16913
+    },
+    {
+      "anchor_id": "lem:4-3-antipodal-coloring",
+      "category": "numbered-environment",
+      "line": 515,
+      "position": 17557
+    },
+    {
+      "anchor_id": "lem:4-4-selfdual-amalgamation",
+      "category": "numbered-environment",
+      "line": 523,
+      "position": 18111
+    },
+    {
+      "anchor_id": "thm:4-5-vertical-exclusion",
+      "category": "numbered-environment",
+      "line": 596,
+      "position": 20147
+    },
+    {
+      "anchor_id": "thm:4-6-cut-rotation-type",
+      "category": "numbered-environment",
+      "line": 652,
+      "position": 21593
+    },
+    {
+      "anchor_id": "sec:cut-preimage",
+      "category": "section",
+      "line": 682,
+      "position": 22430
+    },
+    {
+      "anchor_id": "def:5-1-cut-preimage",
+      "category": "numbered-environment",
+      "line": 706,
+      "position": 22960
+    },
+    {
+      "anchor_id": "lem:5-2-ray-exchange",
+      "category": "numbered-environment",
+      "line": 739,
+      "position": 23683
+    },
+    {
+      "anchor_id": "lem:5-3-delta-injective",
+      "category": "numbered-environment",
+      "line": 769,
+      "position": 24296
+    },
+    {
+      "anchor_id": "lem:5-4-delta-decreasing",
+      "category": "numbered-environment",
+      "line": 819,
+      "position": 25014
+    },
+    {
+      "anchor_id": "cor:5-5-delta-bijective",
+      "category": "numbered-environment",
+      "line": 891,
+      "position": 26020
+    },
+    {
+      "anchor_id": "thm:5-6-cut-rotation-selfduality",
+      "category": "numbered-environment",
+      "line": 899,
+      "position": 26366
+    },
+    {
+      "anchor_id": "sec:main-theorem",
+      "category": "section",
+      "line": 921,
+      "position": 27247
+    },
+    {
+      "anchor_id": "thm:6-1-main",
+      "category": "numbered-environment",
+      "line": 925,
+      "position": 27309
+    },
+    {
+      "anchor_id": "cor:6-2-two-three-gap",
+      "category": "numbered-environment",
+      "line": 943,
+      "position": 27705
+    },
+    {
+      "anchor_id": "cor:6-3-zf",
+      "category": "numbered-environment",
+      "line": 962,
+      "position": 28066
+    },
+    {
+      "anchor_id": "sec:scope",
+      "category": "section",
+      "line": 970,
+      "position": 28256
+    },
+    {
+      "anchor_id": "app:weak-audit",
+      "category": "section",
+      "line": 991,
+      "position": 29780
+    },
+    {
+      "anchor_id": "prop:a-1-cut-relations",
+      "category": "numbered-environment",
+      "line": 995,
+      "position": 29871
+    },
+    {
+      "anchor_id": "prop:a-2-cut-table",
+      "category": "numbered-environment",
+      "line": 1017,
+      "position": 30412
+    },
+    {
+      "anchor_id": "prop:a-3-delta-graph",
+      "category": "numbered-environment",
+      "line": 1025,
+      "position": 30972
+    },
+    {
+      "anchor_id": "prop:a-4-composites",
+      "category": "numbered-environment",
+      "line": 1039,
+      "position": 31569
+    },
+    {
+      "anchor_id": "app:dyadic-engine",
+      "category": "section",
+      "line": 1048,
+      "position": 32156
+    },
+    {
+      "anchor_id": "lem:b-1-reflection-split",
+      "category": "numbered-environment",
+      "line": 1096,
+      "position": 33544
+    },
+    {
+      "anchor_id": "lem:b-2-singleton-placement",
+      "category": "numbered-environment",
+      "line": 1139,
+      "position": 34860
+    },
+    {
+      "anchor_id": "lem:b-3-child-localization",
+      "category": "numbered-environment",
+      "line": 1164,
+      "position": 36042
+    },
+    {
+      "anchor_id": "def:b-4-level-state",
+      "category": "numbered-environment",
+      "line": 1316,
+      "position": 40759
+    },
+    {
+      "anchor_id": "thm:b-5-tree-actualization",
+      "category": "numbered-environment",
+      "line": 1382,
+      "position": 42034
+    },
+    {
+      "anchor_id": "lem:b-6-center-countability",
+      "category": "numbered-environment",
+      "line": 1461,
+      "position": 45182
+    },
+    {
+      "anchor_id": "thm:b-7-off-center",
+      "category": "numbered-environment",
+      "line": 1481,
+      "position": 45980
+    },
+    {
+      "anchor_id": "cor:b-8-dyadic-dichotomy",
+      "category": "numbered-environment",
+      "line": 1526,
+      "position": 47060
+    },
+    {
+      "anchor_id": "sec:ai-disclosure",
+      "category": "section",
+      "line": 1546,
+      "position": 47673
+    },
+    {
+      "anchor_id": "sec:references",
+      "category": "section",
+      "line": 1552,
+      "position": 48175
+    },
+    {
+      "anchor_id": "ref:ervin2017",
+      "category": "reference",
+      "line": 1556,
+      "position": 48223
+    },
+    {
+      "anchor_id": "ref:howardrubin1998",
+      "category": "reference",
+      "line": 1560,
+      "position": 48441
+    },
+    {
+      "anchor_id": "ref:isthmus2026a",
+      "category": "reference",
+      "line": 1564,
+      "position": 48652
+    },
+    {
+      "anchor_id": "ref:isthmus2026b",
+      "category": "reference",
+      "line": 1568,
+      "position": 49030
+    },
+    {
+      "anchor_id": "ref:jech1973",
+      "category": "reference",
+      "line": 1572,
+      "position": 49352
+    },
+    {
+      "anchor_id": "ref:marker2002",
+      "category": "reference",
+      "line": 1576,
+      "position": 49517
+    },
+    {
+      "anchor_id": "ref:shelah2009",
+      "category": "reference",
+      "line": 1580,
+      "position": 49668
+    }
+  ]
+}

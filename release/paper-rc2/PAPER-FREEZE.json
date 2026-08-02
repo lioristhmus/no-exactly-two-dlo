@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "freeze_id": "paper-rc2",
+  "previous_freeze_id": "paper-rc1",
+  "frozen_at_utc": "2026-08-02T18:12:07Z",
+  "status": "local post-formalization publication candidate; source and PDF frozen; not published",
+  "author": "Lior Isthmus",
+  "source_provenance": {
+    "working_draft_path": "../two-dlo/no-exactly-two-dlo-v7.md",
+    "working_draft_sha256": "cbbd9862ab814c75ec6fa2de6592d7bda1cca71ac77a8af3b65a6d57214f48e5",
+    "paper_rc1_sha256": "bec4c8b1b0f65495efb32e270e4bdcd5fe6ecafca0ca5744760b1630a51487f7",
+    "working_draft_modified": false,
+    "rc2_difference": "formalization note, exact-two Lean citation, and expanded AI-use disclosure",
+    "numbered_mathematical_statements_changed": false,
+    "equation_ids_changed": false,
+    "mathematical_conclusions_changed": false
+  },
+  "canonical_source": {
+    "path": "no-exactly-two-dlo.md",
+    "sha256": "80a53bcfa94ea0bea2116c1268a00ddbe123311f6a05f722d75657b7b5051384",
+    "bytes": 51166,
+    "lines": 1595
+  },
+  "formalization": {
+    "target": "Level IV - paper-exact end-to-end",
+    "lifecycle": "level-IV-final",
+    "status": "complete",
+    "alignment": "45/45 exact-proved; 42/42 labeled equations covered",
+    "endpoint": "ExactTwoDLO.FO.zsep_proves_not_spec2Sentence",
+    "contract_sha256": "0a498a649d72274885099a065f35f430a15a51c95cebca3e5daddbdd01b6a4e9",
+    "lean_ledger_cross_check": "PASS; 45 alignment rows and 188 declarations",
+    "independent_human_review": false
+  },
+  "rendering_profile": {
+    "name": "standard-arxiv-ams",
+    "document_class": "amsart",
+    "class_options": ["11pt", "reqno"],
+    "engine": "XeLaTeX",
+    "passes": 3,
+    "paper_size": "letter",
+    "source_date_epoch": 1785694327,
+    "byte_identical_rebuild_across_toolchains": false,
+    "byte_identical_rebuild_on_same_host": false
+  },
+  "toolchain": {
+    "pandoc": "3.9.0.2",
+    "pandoc_crossref": "0.3.23",
+    "xetex": "0.999998",
+    "tex_live": "2026",
+    "python": "3.14.5",
+    "poppler": "26.05.0",
+    "pandoc_default_latex_template_sha256": "0a182e554e971eba7c7dc025fca17616c3a81d1ffaf93a84d063c873282436f1"
+  },
+  "metrics": {
+    "anchors": 66,
+    "equation_ids": 42,
+    "numbered_body_equations": 41,
+    "numbered_environments": 45,
+    "proof_blocks": 36,
+    "proof_end_squares": 36,
+    "pdf_pages": 27,
+    "pdf_external_links": 5,
+    "pdf_internal_links": 48,
+    "pdf_font_resources": 10
+  },
+  "verification": {
+    "local_pandoc_latex_pdf_build": "PASS",
+    "canonical_manuscript_lint": "PASS",
+    "final_index_check": "PASS; 45/45 exact-proved, 42/42 covered",
+    "lean_ledger_cross_check": "PASS; 45 alignment rows, 188 declaration targets, 188 prose references",
+    "pdf_structural_inspection": "PASS; 27 Letter pages, zero rotation, no encryption, JavaScript, or forms",
+    "pdf_font_embedding": "PASS; 10/10 embedded and subset with Unicode maps",
+    "pdf_text_extraction": "PASS; no replacement or NUL characters",
+    "pdf_visual_inspection": "PASS; all 27 pages rendered and inspected",
+    "byte_identical_pdf_rebuild": "NOT CLAIMED",
+    "external_reference_links": "four published destinations resolved; exact-two Lean repository pending GitHub publication",
+    "fresh_linux_paper_package_check": "PASS; read-only network-disabled python:3.12-slim-bookworm container, digest sha256:d50fb7611f86d04a3b0471b46d7557818d88983fc3136726336b2a4c657aa30b"
+  },
+  "artifacts": {
+    "generated_tex_sha256": "d35bd5426c53fc8fc06b61c402042aa67337e1eaac43b533e63e5f6def4e9d8b",
+    "generated_pdf_sha256": "6c54500e11f7e102933e00d8d232faa6221cbd2e1c1abd91909ae9c2c320f71e",
+    "formalization_index_md_sha256": "3fbf92b19868934f4cc387213235a8d96306b8d605a302d1dbdc7869a99f3905",
+    "formalization_index_json_sha256": "29aa8c82b05780e6c8ed072692cd5d310ca48006b394a9eb944955f04309ed1a",
+    "anchor_manifest_sha256": "321bfbf40ce7fe8c9d4e7c8f0587a5d44d0de7c04d743ee698386a131031776a"
+  },
+  "profile_files": {
+    "common/styles/pandoc-arxiv-ams-en.yaml": "246c7875e18f5c3ae5c3c931b6c687752a078011914d543e004c0ce5f8d6c738",
+    "common/styles/pandoc-promote-topmatter.lua": "c36fbffdd0c88276fd28256efeb8dcb1968a9ac5776fe2a93c7a2b3d858e496c",
+    "common/styles/pandoc-manual-reference-anchors.lua": "8405e9d7f93d5b50b1c5f1ac7290bb98ab687857b78b366c5a715e9ec8913bfe",
+    "common/styles/arxiv-preamble.tex": "d381c6a8e7b056f89f4222aea7e2c76e650f5560cfd9cea58d4608a24e51a891",
+    "common/styles/macros.tex": "9a8334605a62112fff0692691dacb2f92b656b11e052d84ae95cc56811fddaa4"
+  }
+}

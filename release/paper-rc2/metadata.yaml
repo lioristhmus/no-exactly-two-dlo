@@ -1,0 +1,61 @@
+title: No Set Carries Exactly Two Dense Linear Orders without Endpoints
+subtitle: A Cut-Rotation Proof in a Weak Zermelo Theory without Choice or Replacement
+author:
+  - Lior Isthmus
+language: en
+publication-status: local post-formalization publication candidate; source and PDF frozen; not published
+freeze-id: paper-rc2
+previous-freeze-id: paper-rc1
+freeze-kind: formalization note, AI-use disclosure, and exact-two Lean reference; numbered mathematical statements unchanged
+frozen-at-utc: 2026-08-02T18:12:07Z
+canonical-source: no-exactly-two-dlo.md
+canonical-source-sha256: 80a53bcfa94ea0bea2116c1268a00ddbe123311f6a05f722d75657b7b5051384
+source-provenance:
+  working-draft: ../two-dlo/no-exactly-two-dlo-v7.md
+  working-draft-sha256: cbbd9862ab814c75ec6fa2de6592d7bda1cca71ac77a8af3b65a6d57214f48e5
+  rc1-source-sha256: bec4c8b1b0f65495efb32e270e4bdcd5fe6ecafca0ca5744760b1630a51487f7
+  rc2-difference: formalization note, exact-two Lean citation, and expanded AI-use disclosure; no numbered statement or labeled equation changed
+generated-tex-sha256: d35bd5426c53fc8fc06b61c402042aa67337e1eaac43b533e63e5f6def4e9d8b
+generated-pdf-sha256: 6c54500e11f7e102933e00d8d232faa6221cbd2e1c1abd91909ae9c2c320f71e
+rendering:
+  profile: standard-arxiv-ams
+  document-class: amsart
+  class-options:
+    - 11pt
+    - reqno
+  engine: XeLaTeX
+  latex-passes: 3
+  paper-size: letter
+  pages: 27
+  source-date-epoch: 1785694327
+  byte-identical-rebuild-across-toolchains: not claimed
+  byte-identical-rebuild-on-same-host: not claimed
+toolchain:
+  pandoc: 3.9.0.2
+  pandoc-crossref: 0.3.23
+  xetex: 0.999998
+  tex-live: 2026
+  python: 3.14.5
+  poppler: 26.05.0
+  pandoc-default-latex-template-sha256: 0a182e554e971eba7c7dc025fca17616c3a81d1ffaf93a84d063c873282436f1
+formalization:
+  repository: https://github.com/lioristhmus/no-exactly-two-dlo-lean
+  target: Level IV - paper-exact end-to-end
+  lifecycle: level-IV-final
+  status: 45/45 exact-proved
+  paper-items-inventoried: 45/45
+  paper-items-proved: 45/45
+  endpoint: ExactTwoDLO.FO.zsep_proves_not_spec2Sentence
+  contract-sha256: 0a498a649d72274885099a065f35f430a15a51c95cebca3e5daddbdd01b6a4e9
+  independent-human-review: not claimed
+verification:
+  local-paper-build: passed
+  local-paper-lint: passed
+  final-index-check: passed; 45/45 exact-proved and 42/42 equations covered
+  lean-ledger-cross-check: passed; 45 rows and 188 declarations
+  pdf-structural-inspection: passed
+  pdf-font-embedding: passed; 10/10 fonts embedded and subset
+  pdf-text-extraction: passed; no replacement or NUL characters
+  pdf-visual-inspection: passed; all 27 pages
+  external-reference-links: four published destinations resolved; exact-two Lean repository URL reserved locally and pending GitHub publication
+  fresh-linux-paper-package-check: passed in a read-only, network-disabled python:3.12-slim-bookworm container; PDF rebuild not claimed

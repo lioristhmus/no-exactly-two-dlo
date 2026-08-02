@@ -1,0 +1,9 @@
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.lua text eol=lf
+*.tex text eol=lf whitespace=-blank-at-eof
+*.pdf binary

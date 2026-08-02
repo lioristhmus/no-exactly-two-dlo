@@ -1,0 +1,33 @@
+name: Frozen paper package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify historical paper-rc1
+        working-directory: release/paper-rc1
+        run: |
+          sha256sum -c SHA256SUMS
+          python3 lint_paper.py
+          python3 check_formalization_index.py
+      - name: Verify active paper-rc2
+        working-directory: release/paper-rc2
+        run: |
+          sha256sum -c SHA256SUMS
+          python3 lint_paper.py
+          python3 check_formalization_index.py --final
+      - name: Verify root convenience copies
+        run: |
+          cmp no-exactly-two-dlo.md release/paper-rc2/no-exactly-two-dlo.md
+          cmp no-exactly-two-dlo.pdf release/paper-rc2/build/no-exactly-two-dlo.pdf
+          cmp formalization-index.md release/paper-rc2/formalization-index.md
+          cmp formalization-index.json release/paper-rc2/formalization-index.json

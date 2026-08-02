@@ -1,0 +1,57 @@
+title: No Set Carries Exactly Two Dense Linear Orders without Endpoints
+subtitle: A Cut-Rotation Proof in a Weak Zermelo Theory without Choice or Replacement
+author:
+  - Lior Isthmus
+language: en
+publication-status: local pre-formalization publication candidate; source and PDF frozen; not published
+freeze-id: paper-rc1
+freeze-kind: initial pre-formalization source and PDF freeze
+frozen-at-utc: 2026-08-02T07:32:08Z
+canonical-source: no-exactly-two-dlo.md
+canonical-source-sha256: bec4c8b1b0f65495efb32e270e4bdcd5fe6ecafca0ca5744760b1630a51487f7
+source-provenance:
+  working-draft: ../two-dlo/no-exactly-two-dlo-v7.md
+  working-draft-sha256: cbbd9862ab814c75ec6fa2de6592d7bda1cca71ac77a8af3b65a6d57214f48e5
+  canonical-difference: equivalent multiline typesetting of the cut-preimage graph; no mathematical statement changed
+generated-tex-sha256: d67013ffc4399c8f0feab6ce19eca00a221e26647775024d94e0e760954553b1
+generated-pdf-sha256: 071538dd4b64ce74935a97e43aa974e098ef885302367f63ce6fd1062b23617b
+rendering:
+  profile: standard-arxiv-ams
+  document-class: amsart
+  class-options:
+    - 11pt
+    - reqno
+  engine: XeLaTeX
+  latex-passes: 3
+  paper-size: letter
+  pages: 27
+  source-date-epoch: 1785655928
+  byte-identical-rebuild-across-toolchains: not claimed
+  byte-identical-rebuild-on-same-host: not claimed
+toolchain:
+  pandoc: 3.9.0.2
+  pandoc-crossref: 0.3.23
+  xetex: 0.999998
+  tex-live: 2026
+  python: 3.14.5
+  pandoc-default-latex-template-sha256: 0a182e554e971eba7c7dc025fca17616c3a81d1ffaf93a84d063c873282436f1
+formalization:
+  target: Level IV - paper-exact end-to-end
+  lifecycle: pre-formalization-source-freeze
+  status: not started
+  paper-items-inventoried: 45/45
+  paper-items-proved: 0/45
+  contract-sha256: pending
+  lean-executed-for-this-paper: false
+  independent-human-review: not claimed
+verification:
+  local-paper-build: passed
+  local-paper-lint: passed
+  planning-index-check: passed
+  pdf-structural-inspection: passed
+  pdf-font-embedding: passed; 10/10 fonts embedded and subset
+  pdf-text-extraction: passed; no replacement or NUL characters
+  pdf-visual-inspection: passed; all 27 pages
+  external-reference-links: passed; 4/4 resolved
+  fresh-linux-paper-build: not run; outside this freeze task
+
