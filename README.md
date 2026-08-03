@@ -52,9 +52,10 @@ separate axes.
 A separate public [Comparator repository](https://github.com/lioristhmus/no-exactly-two-dlo-comparator)
 checks statement identity and permitted axioms; its ordinary Challenge and
 Solution builds and default-kernel replay passed. Its guarded Linux Landrun job
-also passed on hosted GitHub Actions (Ubuntu 24.04, x86_64) on 2026-08-02 UTC
-([run 30768695800](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30768695800));
-no Formal Verification certificate has been requested.
+also passed on hosted GitHub Actions (Ubuntu 24.04, x86_64) for the final
+Comparator commit on 2026-08-03 UTC
+([run 30775019145](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30775019145));
+Project Diderot submission and a Formal Verification certificate remain pending.
 
 ## Verify the active frozen package
 
@@ -72,13 +73,13 @@ PDF rebuilding is not claimed.
 
 ## Publication status
 
-The `paper-rc2` source, PDF, and correspondence index are frozen. This paper
-repository and the companion Lean and Comparator repositories are public on
-GitHub. Zenodo has reserved the version DOI
-[`10.5281/zenodo.21765207`](https://doi.org/10.5281/zenodo.21765207) for the
-`paper-rc2` preprint record. The Zenodo record remains an unpublished draft;
-no final Git tag or GitHub Release has yet been created, and Project Diderot
-submission and a Formal Verification certificate remain pending.
+The `paper-rc2` source, PDF, and correspondence index are frozen. The paper is
+published on Zenodo under version DOI
+[`10.5281/zenodo.21765207`](https://doi.org/10.5281/zenodo.21765207) and as the
+[`paper-rc2` GitHub Release](https://github.com/lioristhmus/no-exactly-two-dlo/releases/tag/paper-rc2).
+The companion Lean `v1.0.0` release is archived under software DOI
+[`10.5281/zenodo.21765391`](https://doi.org/10.5281/zenodo.21765391).
+Project Diderot submission and a Formal Verification certificate remain pending.
 
 ## License and provenance
 

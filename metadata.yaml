@@ -11,13 +11,13 @@ planned-distribution:
   - GitHub
   - Project Diderot
   - Zenodo publication record
-publication-status: public GitHub release candidate; Zenodo paper-rc2 version DOI reserved in an unpublished draft; final tag, GitHub Release, Zenodo publication, Diderot submission, and Formal Verification certificate pending
+publication-status: published paper-rc2 preprint on Zenodo and GitHub; companion Lean v1.0.0 archived on Zenodo; Diderot submission and Formal Verification certificate pending
 doi: "10.5281/zenodo.21765207"
 diderot: null
 zenodo:
   concept-doi: "10.5281/zenodo.21765206"
   rc2-version-doi: "10.5281/zenodo.21765207"
-  status: reserved draft; publication not yet claimed
+  status: published 2026-08-03
 freeze-id: paper-rc2
 previous-freeze-id: paper-rc1
 freeze-kind: formalization note, AI-use disclosure, and exact-two Lean reference; numbered mathematical statements unchanged
@@ -29,6 +29,9 @@ rendering-profile: standard-arxiv-ams
 byte-identical-pdf-rebuild: not claimed
 formalization:
   repository: https://github.com/lioristhmus/no-exactly-two-dlo-lean
+  version-doi: "10.5281/zenodo.21765391"
+  concept-doi: "10.5281/zenodo.21765390"
+  release: v1.0.0
   level: Level IV - paper-exact end-to-end
   endpoint: ExactTwoDLO.FO.zsep_proves_not_spec2Sentence
   status: 45/45 exact-proved; 42/42 labeled equations covered
@@ -41,5 +44,5 @@ release-axes:
   fresh-linux-paper-package-check: verified in a read-only, network-disabled container; PDF rebuild not claimed
   fresh-linux-lean-build: verified from an empty .lake state in an x86_64 Ubuntu 24.04 container
   comparator-local-core: verified; Challenge and Solution builds plus default-kernel replay
-  comparator-sandbox: verified on hosted GitHub Actions with guarded Landrun (Ubuntu 24.04, x86_64; 2026-08-02 UTC; run 30768695800)
+  comparator-sandbox: verified on hosted GitHub Actions with guarded Landrun (Ubuntu 24.04, x86_64; 2026-08-03 UTC; run 30775019145)
   independent-human-review: not claimed

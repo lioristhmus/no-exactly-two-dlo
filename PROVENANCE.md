@@ -46,16 +46,20 @@ The companion Lean release gate was independently replayed from an empty
 `.lake` state in an x86_64 Ubuntu 24.04 container. This clean-environment check
 is distinct from hosted CI and from independent mathematical review.
 
-## Reserved archival identifier
+## Published archival identifiers
 
-Zenodo has reserved version DOI
+Zenodo published the `paper-rc2` preprint under version DOI
 [`10.5281/zenodo.21765207`](https://doi.org/10.5281/zenodo.21765207) for the
 `paper-rc2` preprint and concept DOI
 [`10.5281/zenodo.21765206`](https://doi.org/10.5281/zenodo.21765206) for its
-version chain. At this revision the record is still an unpublished draft; the
-reserved identifiers are recorded without claiming publication.
+version chain. Zenodo also archived the companion Lean `v1.0.0` release under
+software version DOI
+[`10.5281/zenodo.21765391`](https://doi.org/10.5281/zenodo.21765391) and
+software concept DOI
+[`10.5281/zenodo.21765390`](https://doi.org/10.5281/zenodo.21765390).
 
 The public Comparator passed its ordinary Challenge and Solution builds and a
 local default-kernel replay. Its guarded Linux Landrun execution also passed on
-hosted GitHub Actions (Ubuntu 24.04, x86_64) on 2026-08-02 UTC
-([run 30768695800](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30768695800)).
+hosted GitHub Actions (Ubuntu 24.04, x86_64) for the final Comparator commit
+on 2026-08-03 UTC
+([run 30775019145](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30775019145)).
