@@ -31,7 +31,7 @@ mathematical statements and 42 labeled equations are unchanged.
 
 ## Lean formalization
 
-The companion repository is staged for publication at
+The companion formalization repository is publicly available at
 [`lioristhmus/no-exactly-two-dlo-lean`](https://github.com/lioristhmus/no-exactly-two-dlo-lean).
 It contains a Level IV (paper-exact end-to-end) formalization: all 45 numbered
 paper items are represented, all 42 labeled equations are covered, and the
@@ -49,10 +49,12 @@ x86_64 Ubuntu 24.04 container. Formalization, local verification,
 clean-environment reproducibility, and independent review are reported as
 separate axes.
 
-A separately staged Comparator repository has locally checked statement
-identity, permitted axioms, and default-kernel replay of this final endpoint.
-Its security-grade Linux Landrun run remains pending the first public GitHub
-Actions execution; no Formal Verification certificate has been requested.
+A separate public [Comparator repository](https://github.com/lioristhmus/no-exactly-two-dlo-comparator)
+checks statement identity and permitted axioms; its ordinary Challenge and
+Solution builds and default-kernel replay passed. Its guarded Linux Landrun job
+also passed on hosted GitHub Actions (Ubuntu 24.04, x86_64) on 2026-08-02 UTC
+([run 30768695800](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30768695800));
+no Formal Verification certificate has been requested.
 
 ## Verify the active frozen package
 
@@ -70,9 +72,11 @@ PDF rebuilding is not claimed.
 
 ## Publication status
 
-The local `paper-rc2` source, PDF, and correspondence index are frozen. GitHub
-publication, archival DOI registration, Project Diderot submission, and a
-Formal Verification certificate have not yet been performed.
+The `paper-rc2` source, PDF, and correspondence index are frozen. This paper
+repository and the companion Lean and Comparator repositories are public on
+GitHub. No final Git tag or GitHub Release has yet been created; archival DOI
+registration, Project Diderot submission, and a Formal Verification certificate
+have not yet been performed.
 
 ## License and provenance
 

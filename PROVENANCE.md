@@ -46,6 +46,7 @@ The companion Lean release gate was independently replayed from an empty
 `.lake` state in an x86_64 Ubuntu 24.04 container. This clean-environment check
 is distinct from hosted CI and from independent mathematical review.
 
-The separately staged Comparator passed its ordinary Challenge and Solution
-builds and a local default-kernel replay. The guarded Linux Landrun execution
-is still pending a public GitHub Actions run and is not claimed here.
+The public Comparator passed its ordinary Challenge and Solution builds and a
+local default-kernel replay. Its guarded Linux Landrun execution also passed on
+hosted GitHub Actions (Ubuntu 24.04, x86_64) on 2026-08-02 UTC
+([run 30768695800](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30768695800)).

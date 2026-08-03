@@ -11,7 +11,7 @@ planned-distribution:
   - GitHub
   - Project Diderot
   - Zenodo publication record
-publication-status: local release staging; not yet published
+publication-status: public GitHub release candidate; final tag, GitHub Release, archival DOI/Zenodo record, Diderot submission, and Formal Verification certificate pending
 doi: null
 diderot: null
 zenodo: null
@@ -38,5 +38,5 @@ release-axes:
   fresh-linux-paper-package-check: verified in a read-only, network-disabled container; PDF rebuild not claimed
   fresh-linux-lean-build: verified from an empty .lake state in an x86_64 Ubuntu 24.04 container
   comparator-local-core: verified; Challenge and Solution builds plus default-kernel replay
-  comparator-sandbox: pending public GitHub Actions Landrun execution
+  comparator-sandbox: verified on hosted GitHub Actions with guarded Landrun (Ubuntu 24.04, x86_64; 2026-08-02 UTC; run 30768695800)
   independent-human-review: not claimed
