@@ -16,6 +16,6 @@ https://creativecommons.org/licenses/by/4.0/legalcode
 
 Suggested attribution:
 
-> Lior Isthmus, *No Set Carries Exactly Three Dense Linear Orders without
-> Endpoints: A Proof in a Weak Zermelo Theory without Choice or Replacement*,
-> 2026, CC BY 4.0.
+> Lior Isthmus, *No Set Carries Exactly Two Dense Linear Orders without
+> Endpoints: A Cut-Rotation Proof in a Weak Zermelo Theory without Choice or
+> Replacement*, 2026, CC BY 4.0.
