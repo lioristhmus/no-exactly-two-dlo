@@ -74,9 +74,11 @@ PDF rebuilding is not claimed.
 
 The `paper-rc2` source, PDF, and correspondence index are frozen. This paper
 repository and the companion Lean and Comparator repositories are public on
-GitHub. No final Git tag or GitHub Release has yet been created; archival DOI
-registration, Project Diderot submission, and a Formal Verification certificate
-have not yet been performed.
+GitHub. Zenodo has reserved the version DOI
+[`10.5281/zenodo.21765207`](https://doi.org/10.5281/zenodo.21765207) for the
+`paper-rc2` preprint record. The Zenodo record remains an unpublished draft;
+no final Git tag or GitHub Release has yet been created, and Project Diderot
+submission and a Formal Verification certificate remain pending.
 
 ## License and provenance
 

@@ -11,10 +11,13 @@ planned-distribution:
   - GitHub
   - Project Diderot
   - Zenodo publication record
-publication-status: public GitHub release candidate; final tag, GitHub Release, archival DOI/Zenodo record, Diderot submission, and Formal Verification certificate pending
-doi: null
+publication-status: public GitHub release candidate; Zenodo paper-rc2 version DOI reserved in an unpublished draft; final tag, GitHub Release, Zenodo publication, Diderot submission, and Formal Verification certificate pending
+doi: "10.5281/zenodo.21765207"
 diderot: null
-zenodo: null
+zenodo:
+  concept-doi: "10.5281/zenodo.21765206"
+  rc2-version-doi: "10.5281/zenodo.21765207"
+  status: reserved draft; publication not yet claimed
 freeze-id: paper-rc2
 previous-freeze-id: paper-rc1
 freeze-kind: formalization note, AI-use disclosure, and exact-two Lean reference; numbered mathematical statements unchanged
