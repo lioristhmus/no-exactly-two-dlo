@@ -55,7 +55,11 @@ Solution builds and default-kernel replay passed. Its guarded Linux Landrun job
 also passed on hosted GitHub Actions (Ubuntu 24.04, x86_64) for the final
 Comparator commit on 2026-08-03 UTC
 ([run 30775019145](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30775019145));
-Project Diderot submission and a Formal Verification certificate remain pending.
+the preprint is also published on
+[Project Diderot](https://projectdiderot.com/papers/7f4647bf-b0ef-40dd-a347-a27088cf40d1)
+as `OA:7f4647bf`, version 1. The same record carries an author-issued Formal
+Verification certificate linking the Lean formalization and Comparator
+certificate.
 
 ## Verify the active frozen package
 
@@ -79,7 +83,9 @@ published on Zenodo under version DOI
 [`paper-rc2` GitHub Release](https://github.com/lioristhmus/no-exactly-two-dlo/releases/tag/paper-rc2).
 The companion Lean `v1.0.0` release is archived under software DOI
 [`10.5281/zenodo.21765391`](https://doi.org/10.5281/zenodo.21765391).
-Project Diderot submission and a Formal Verification certificate remain pending.
+The preprint is also available on
+[Project Diderot](https://projectdiderot.com/papers/7f4647bf-b0ef-40dd-a347-a27088cf40d1)
+as `OA:7f4647bf`, version 1, with an attached Formal Verification certificate.
 
 ## License and provenance
 

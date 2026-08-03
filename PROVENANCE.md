@@ -58,8 +58,20 @@ software version DOI
 software concept DOI
 [`10.5281/zenodo.21765390`](https://doi.org/10.5281/zenodo.21765390).
 
-The public Comparator passed its ordinary Challenge and Solution builds and a
-local default-kernel replay. Its guarded Linux Landrun execution also passed on
-hosted GitHub Actions (Ubuntu 24.04, x86_64) for the final Comparator commit
-on 2026-08-03 UTC
+The public
+[Comparator repository](https://github.com/lioristhmus/no-exactly-two-dlo-comparator)
+passed its ordinary Challenge and Solution builds and a local default-kernel
+replay. Its audited revision
+[`bbd838b9ee4902653bd0395c9ffd0a57d799173f`](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/tree/bbd838b9ee4902653bd0395c9ffd0a57d799173f)
+also passed the guarded Linux Landrun execution on hosted GitHub Actions
+(Ubuntu 24.04, x86_64) on 2026-08-03 UTC
 ([run 30775019145](https://github.com/lioristhmus/no-exactly-two-dlo-comparator/actions/runs/30775019145)).
+
+Project Diderot published the preprint as
+[`OA:7f4647bf`, version 1](https://projectdiderot.com/papers/7f4647bf-b0ef-40dd-a347-a27088cf40d1).
+The uploaded PDF has SHA-256
+`6c54500e11f7e102933e00d8d232faa6221cbd2e1c1abd91909ae9c2c320f71e`,
+identical to the frozen `paper-rc2` artifact. The record carries an AI Tool
+Disclosure and an author-issued Formal Verification certificate linking the
+Lean formalization and Comparator repositories. This certificate is distinct
+from, and does not claim, independent human mathematical review.

@@ -11,9 +11,17 @@ planned-distribution:
   - GitHub
   - Project Diderot
   - Zenodo publication record
-publication-status: published paper-rc2 preprint on Zenodo and GitHub; companion Lean v1.0.0 archived on Zenodo; Diderot submission and Formal Verification certificate pending
+publication-status: published preprint; paper-rc2 on Zenodo and GitHub and Diderot v1 published 2026-08-03; companion Lean v1.0.0 archived; Formal Verification certificate attached
 doi: "10.5281/zenodo.21765207"
-diderot: null
+diderot:
+  identifier: "OA:7f4647bf"
+  version: 1
+  url: https://projectdiderot.com/papers/7f4647bf-b0ef-40dd-a347-a27088cf40d1
+  published: 2026-08-03
+  pdf-sha256: 6c54500e11f7e102933e00d8d232faa6221cbd2e1c1abd91909ae9c2c320f71e
+  certificates:
+    - AI Tool Disclosure
+    - Formal Verification
 zenodo:
   concept-doi: "10.5281/zenodo.21765206"
   rc2-version-doi: "10.5281/zenodo.21765207"
